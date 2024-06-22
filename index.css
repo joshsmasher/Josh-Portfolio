@@ -32,6 +32,11 @@ img{
     width: 400px;
     height: 500px;
     object-fit:cover;
+    animation: slideLeftToRight .35s ease-in ;
+}
+
+.col{
+    animation: slideRightToLeft .35s ease-in;
 }
 
 .aboutme{
@@ -47,4 +52,22 @@ img{
 
 .custom-navbar{
     background-color: transparent;
+}
+
+@keyframes slideLeftToRight{
+    0%{
+        transform: skewX(53deg) translateX(-500px);
+    }
+    100%{
+        transform: skew(0deg);
+    }
+}
+
+@keyframes slideRightToLeft{
+    100%{
+        transform: skew(0deg) translateX(0);
+    }
+    0%{
+        transform: skewX(127deg) translateX(100%);
+    }
 }

@@ -11,6 +11,32 @@ h4{
     color:#B5838D;
 }
 
+img{
+    width: 100px;
+    height: 500px;
+    margin-left: 250px;
+    border-radius: 50px;
+}
+
+.img-container{
+    width: 700px;
+    height: 550px;
+    overflow: hidden;
+}
+
+.img-container img{
+    width: 400px;
+    height: 500px;
+    object-fit:cover;
+}
+
+.aboutme{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 300px;
+}
+
 .nav-link:hover{
     color: black;
 }

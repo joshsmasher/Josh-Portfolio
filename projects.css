@@ -60,11 +60,15 @@ h4{
     transition: .4s;
 }
 
+.card-body a{
+    text-decoration: none;
+}
+
 .card-btn{
     background-color:#B5838D;
     color: #FFF;
     padding: 10px 20px;
-    border-radius: 5px;
+    border-radius: 25px;
     border: none;
     outline: none;
     cursor: pointer;

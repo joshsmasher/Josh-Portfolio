@@ -1,0 +1,110 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #FFCDB2;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+h2{
+    color: #6D6875;
+}
+
+h4{
+    color:#B5838D;
+}
+
+.nav-link:hover{
+    color: black;
+}
+
+.custom-navbar{
+    background-color: transparent;
+}
+
+.contact-container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.contact-left{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+}
+
+.contact-left-title h2{
+    font-weight: 600;
+    color: #B5838D;
+    font-size: 40px;
+    margin-bottom: 5px;
+}
+
+.contact-left-title hr{
+    border: none;
+    width: 120px;
+    height: 5px;
+    background-color: #B5838D;
+    border-radius: 10px;
+    margin-bottom: 20px;
+
+}
+
+.contact-inputs{
+    width: 400px;
+    height: 50px;
+    border: none;
+    outline: none;
+    padding-left: 25px;
+    font-weight: 500;
+    color: #E5989B;
+    border-radius: 50px;
+}
+
+.contact-left textarea{
+    height: 140px;
+    padding-top: 15px;
+    border-radius: 20px;
+}
+
+.contact-inputs:focus{
+    border: 2px solid #6D6875;
+}
+
+.contact-inputs::placeholder{
+    color:#B5838D
+}
+
+.contact-left button{
+    display: flex;
+    align-items: center;
+    padding: 15px 30px;
+    font-size: 16px;
+    color: #FFF;
+    gap:10px;
+    border: none;
+    border-radius: 50px;
+    background: linear-gradient(270deg, #E5989B,#FFB4A2);
+    cursor:pointer;
+}
+
+.contact-right{
+    display:grid;
+}
+
+.bi-github{
+    font-size: 75pt;
+    color: #FFF;
+    text-shadow: 3px 2px 1px #E5989B;
+}
+.bi-linkedin{
+    font-size: 75pt;
+    color: #FFF;
+    /* text-shadow: 3px 2px 1px rgb(63, 132, 229,.5); */
+    text-shadow: 3px 2px 1px #E5989B;
+}

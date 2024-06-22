@@ -89,6 +89,22 @@ h4{
     gap:10px;
     border: none;
     border-radius: 50px;
-    background: linear-gradient(270deg, #ff994f,#fa6d86);
+    background: linear-gradient(270deg, #E5989B,#FFB4A2);
     cursor:pointer;
+}
+
+.contact-right{
+    display:grid;
+}
+
+.bi-github{
+    font-size: 75pt;
+    color: #FFF;
+    text-shadow: 3px 2px 1px #E5989B;
+}
+.bi-linkedin{
+    font-size: 75pt;
+    color: #FFF;
+    /* text-shadow: 3px 2px 1px rgb(63, 132, 229,.5); */
+    text-shadow: 3px 2px 1px #E5989B;
 }

@@ -23,3 +23,15 @@ h4{
 .custom-navbar{
     background-color: transparent;
 }
+
+.projects{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.text-bg-custom{
+    background-color: #E5989B;
+    color: #FFF;
+}

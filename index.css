@@ -39,6 +39,20 @@ img{
     animation: slideRightToLeft .35s ease-in;
 }
 
+.bi-github{
+    font-size: 25pt;
+    color: #FFF;
+    text-shadow: 3px 2px 1px #E5989B;
+}
+.bi-linkedin{
+    font-size: 25pt;
+    color: #FFF;
+    /* text-shadow: 3px 2px 1px rgb(63, 132, 229,.5); */
+    text-shadow: 3px 2px 1px #E5989B;
+}
+
+
+
 .aboutme{
     display: flex;
     align-items: center;
@@ -52,6 +66,11 @@ img{
 
 .custom-navbar{
     background-color: transparent;
+}
+
+#icons{
+    display: flex;
+    gap: 10px;
 }
 
 @keyframes slideLeftToRight{

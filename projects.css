@@ -5,7 +5,7 @@
 }
 body{
     background-color: #FFCDB2;
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 h2{
@@ -22,6 +22,8 @@ h4{
 
 .custom-navbar{
     background-color: transparent;
+    align-items: center;
+    justify-content: start;
 }
 
 .projects{
@@ -38,6 +40,7 @@ h4{
 
 .card{
     overflow: hidden;
+    border-radius: 25px;
 }
 
 .card:hover .card-body{
@@ -72,4 +75,30 @@ h4{
     border: none;
     outline: none;
     cursor: pointer;
+}
+
+.bi-github{
+    font-size: 25pt;
+    color: #FFF;
+    text-shadow: 3px 2px 1px #E5989B;
+}
+.bi-linkedin{
+    font-size: 25pt;
+    color: #FFF;
+    /* text-shadow: 3px 2px 1px rgb(63, 132, 229,.5); */
+    text-shadow: 3px 2px 1px #E5989B;
+}
+
+.twobuttons{
+    display: flex;
+    margin-left: 200px;
+    gap: 20px;
+    margin-right: 300px;
+}
+
+
+#icons{
+    display: flex;
+    gap: 25px;
+    margin-right: 5rem;
 }

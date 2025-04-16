@@ -1,107 +1,87 @@
-body{
-    background-color: #FFCDB2;
-    font-family: 'Montserrat', sans-serif;
+/* @font-face {
+    font-family: "Viaoda Libre";
+    src: url("ViaodaLibre-Regular.ttf") format("truetype");
+} */
+
+body {
+  background-color: #fff;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-h2{
-    color: #6D6875;
+h2 {
+  color: black;
 }
 
-h4{
-    color:#B5838D;
+h4 {
+  color: gray;
 }
 
-h5{
-    color: #FFF;
+h5 {
+  color: gainsboro;
 }
 
-img{
-    width: 100px;
-    height: 500px;
-    margin-left: 250px;
-    border-radius: 50px;
+img {
+  width: 100px;
+  height: 500px;
+  margin-left: 250px;
+  border-radius: 50px;
 }
 
-.img-container{
-    width: 700px;
-    height: 550px;
-    overflow: hidden;
+.img-container {
+  width: 700px;
+  height: 550px;
+  overflow: hidden;
 }
 
-.img-container img{
-    width: 400px;
-    height: 500px;
-    object-fit:cover;
-    animation: slideLeftToRight .35s ease-in ;
+.img-container img {
+  width: 400px;
+  height: 500px;
+  object-fit: cover;
 }
 
-.col{
-    animation: slideRightToLeft .35s ease-in;
+.col h5 {
+  padding-top: 10px;
 }
 
-.col h5{
-    padding-top: 10px;
+.bi-github {
+  font-size: 25pt;
+  color: #fff;
+  text-shadow: 3px 2px 1px gray;
+}
+.bi-linkedin {
+  font-size: 25pt;
+  color: #fff;
+  /* text-shadow: 3px 2px 1px rgb(63, 132, 229,.5); */
+  text-shadow: 3px 2px 1px gray;
 }
 
-.bi-github{
-    font-size: 25pt;
-    color: #FFF;
-    text-shadow: 3px 2px 1px #E5989B;
-}
-.bi-linkedin{
-    font-size: 25pt;
-    color: #FFF;
-    /* text-shadow: 3px 2px 1px rgb(63, 132, 229,.5); */
-    text-shadow: 3px 2px 1px #E5989B;
+.aboutme {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 300px;
+  padding-top: 50px;
 }
 
-.aboutme{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-right: 300px;
-    padding-top: 50px;
-
+.nav-link:hover {
+  color: black;
 }
 
-.nav-link:hover{
-    color: black;
+.custom-navbar {
+  background-color: transparent;
+  align-items: center;
+  justify-content: start;
 }
 
-.custom-navbar{
-    background-color: transparent;
-    align-items: center;
-    justify-content: start;
+.twobuttons {
+  display: flex;
+  margin-left: 200px;
+  gap: 20px;
+  margin-right: 300px;
 }
 
-.twobuttons{
-    display: flex;
-    margin-left: 200px;
-    gap: 20px;
-    margin-right: 300px;
-}
-
-
-#icons{
-    display: flex;
-    gap: 25px;
-    margin-right: 5rem;
-}
-
-@keyframes slideLeftToRight{
-    0%{
-        transform: skewX(53deg) translateX(-500px);
-    }
-    100%{
-        transform: skew(0deg);
-    }
-}
-
-@keyframes slideRightToLeft{
-    100%{
-        transform: skew(0deg) translateX(0);
-    }
-    0%{
-        transform: skewX(127deg) translateX(100%);
-    }
+#icons {
+  display: flex;
+  gap: 25px;
+  margin-right: 5rem;
 }

@@ -1,104 +1,104 @@
-*{
-    padding:0;
-    margin: 0;
-    box-sizing: border-box;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
-body{
-    background-color: #FFCDB2;
-    font-family: 'Montserrat', sans-serif;
-}
-
-h2{
-    color: #6D6875;
+body {
+  background-color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-h4{
-    color:#B5838D;
+h2 {
+  color: black;
 }
 
-.nav-link:hover{
-    color: black;
+h4 {
+  color: gray;
 }
 
-.custom-navbar{
-    background-color: transparent;
-    align-items: center;
-    justify-content: start;
+.nav-link:hover {
+  color: black;
 }
 
-.projects{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 50px;
+.custom-navbar {
+  background-color: transparent;
+  align-items: center;
+  justify-content: start;
 }
 
-.text-bg-custom{
-    background-color: #E5989B;
-    color: #FFF;
+.projects {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
 }
 
-.card{
-    overflow: hidden;
-    border-radius: 25px;
+.text-bg-custom {
+  background-color: #495057;
+  color: #fff;
 }
 
-.card:hover .card-body{
-    right: 0;
+.card {
+  overflow: hidden;
+  border-radius: 25px;
+  width: 18rem;
 }
 
-.card-img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+.card:hover .card-body {
+  right: 0;
 }
 
-.card-body{
-    width: 100%;
-    height: 100%;
-    top: 0;
-    right: -100%;
-    position: absolute;
-    backdrop-filter: blur(5px);
-    transition: .4s;
+.card-img {
+  width: 100%;
+  height: 18rem;
+  object-fit: cover;
 }
 
-.card-body a{
-    text-decoration: none;
+.card-body {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  right: -100%;
+  position: absolute;
+  backdrop-filter: blur(5px);
+  transition: 0.4s;
 }
 
-.card-btn{
-    background-color:#B5838D;
-    color: #FFF;
-    padding: 10px 20px;
-    border-radius: 25px;
-    border: none;
-    outline: none;
-    cursor: pointer;
+.card-body a {
+  text-decoration: none;
 }
 
-.bi-github{
-    font-size: 25pt;
-    color: #FFF;
-    text-shadow: 3px 2px 1px #E5989B;
-}
-.bi-linkedin{
-    font-size: 25pt;
-    color: #FFF;
-    /* text-shadow: 3px 2px 1px rgb(63, 132, 229,.5); */
-    text-shadow: 3px 2px 1px #E5989B;
+.card-btn {
+  background-color: #212529;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 25px;
+  border: none;
+  outline: none;
+  cursor: pointer;
 }
 
-.twobuttons{
-    display: flex;
-    margin-left: 200px;
-    gap: 20px;
-    margin-right: 300px;
+.bi-github {
+  font-size: 25pt;
+  color: #fff;
+  text-shadow: 3px 2px 1px gray;
+}
+.bi-linkedin {
+  font-size: 25pt;
+  color: #fff;
+  /* text-shadow: 3px 2px 1px rgb(63, 132, 229,.5); */
+  text-shadow: 3px 2px 1px gray;
 }
 
+.twobuttons {
+  display: flex;
+  margin-left: 200px;
+  gap: 20px;
+  margin-right: 300px;
+}
 
-#icons{
-    display: flex;
-    gap: 25px;
-    margin-right: 5rem;
+#icons {
+  display: flex;
+  gap: 25px;
+  margin-right: 5rem;
 }

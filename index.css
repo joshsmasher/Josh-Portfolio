@@ -17,6 +17,7 @@ body {
   position: absolute;
   right: 0;
   top: 0;
+  z-index: 1;
 }
 
 .stars1 {
@@ -122,6 +123,8 @@ img {
   justify-content: center;
   margin-right: 300px;
   padding-top: 50px;
+  position: relative;
+  z-index: 2;
 }
 
 .nav-link:hover {

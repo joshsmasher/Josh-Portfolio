@@ -137,6 +137,11 @@ img {
   color: white;
 }
 
+.navbar-brand {
+    align-items: start;
+    justify-content: start;
+}
+
 .custom-navbar {
   background-color: transparent;
   align-items: center;

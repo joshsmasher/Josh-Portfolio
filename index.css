@@ -83,7 +83,10 @@ h5 {
   color: gainsboro;
 }
 
+.container-fluid {
 
+  width: 70%;
+}
 
 img {
   width: 100px;
@@ -137,7 +140,7 @@ img {
 .custom-navbar {
   background-color: transparent;
   align-items: center;
-  justify-content: start;
+  justify-content: center;
 }
 
 .twobuttons {
